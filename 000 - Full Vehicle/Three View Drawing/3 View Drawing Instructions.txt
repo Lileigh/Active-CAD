@@ -1,0 +1,52 @@
+1. Re-copy full car assembly to folder
+
+2. Ensure modified monocoque, aero shield, and full aero assem are current
+	a. Monocoque has the mirror suppressed and is saved as a mirror part (left side of car), one body suppressed so it is a shell
+	b. Aero shield is cut along the monocoque top surface line
+	c. Modified parts and current parts should both be present, with one hidden for each config
+
+3. Rebuild 3VD full car assem to have the three relevant configs
+	a. Front view: Normal monocoque, cut aero shield
+	b. Top view: Cut monocoque, cut aero shield
+	c. Right view: Cut monocoque, normal aero shield
+
+EXPECT PROCESS TO TAKE SEVERAL HOURS
+
+4. Open sheet and fix format
+
+5. Front view
+	1. Import model (~1:9)
+	2. Set ground plane datum
+	3. Set overall, TW, ride height dimensions
+	4. Annotate
+	5. Broken out section if you feel like it
+
+Repeat for other views
+
+
+
+Annotations:
+Front view:
+	Track width
+	Overall width
+	Ride height
+
+Side view:
+	Overall height
+	Student-Developed Carbon Aerodynamic Package with Wind Tunnel Correlation and On-Track Validation
+	IHI RF3 Turbocharger with Custom Cast Exhaust Manifold
+	Single-Cyl Yamaha YZ450F Engine Producing 75 [hp] and 45 [lb-ft] torque
+	
+
+Top view:
+	Wheelbase
+	Overall length
+	Roll-Heave Decoupled Actuation controlled by two Ohlins 4-way-adjustable coilover dampers
+	16x6.0-10 Hoosier LCO front tires
+	16x7.5-10 Hoosier LCO rear tires
+	Full-length Carbon Composite Monocoque Chassis
+	Student-Designed Reactive Muffler with Validated GT-Power and Star-CCM+ Models
+	Dual AP Racing 1 [in] bore brake calipers
+	CFRP steering wheel with Driver Event Selection Controller
+	Parametrically-Defined Suspension Kinematics
+
