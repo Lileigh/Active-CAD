@@ -1,0 +1,78 @@
+// Slash Slash marks (//) represent remarks that are ignored by the computer
+// if the slashes are the first characters in the line
+// For additional information about .OMX files, consult the OMAX Interactive Reference.
+// The line below identifies this file as a .OMX file.  Do not modify it, or the file will not open.
+This is an OMAX (.OMX) file.  Do not modify the first 2 lines of this file. For information on this file format contact softwareengineering@omax.com or visit http://www.omax.com.
+2
+// Above is a flag that indicates the kind of data this file contains "2" means tool path data.
+// Below is the version of this file format. Do not modify it, unless you are confident you know what you are doing.
+2
+// Below is the date that this file was first created, in units of "days since 1900".
+44649.5828340741
+// The following fields are reserved for future use.  Do not delete or modify them.
+[Reserved]
+[Reserved]
+[Reserved]
+[Reserved]
+[Reserved]
+[Reserved]
+// Insert any comments here.  These may be displayed in some dialogs to the user,
+// Such as the dialog for the parametric shape library.
+[COMMENT]
+Created with OMAX LAYOUT for Windows. (www.omax.com) 3/28/2022
+[END]
+// [MACROS]
+// Insert constant or macro definitions here
+// (typically these are used when making a parametric file.)
+// Format is:
+// ConstantName=Value
+// or:
+// MacroName=Macro Definition
+// For example:
+// MyConstant=123.456
+// MyFunction=Sin(PrevX/27)*27
+// [END]
+// [VARIABLES]
+// Insert variable declarations here if making a parametric file or other algorithmically generated file.
+// The format for variables to expose to the user as part of the UI is:
+//   Variable Name, Min Value, Max Value, Default Value, LengthFlag (True or False), Optional Description
+// The format for variables to use internally (hidden from user) use the key-word "Private" in front, and is:
+//   Private Variable Name, Optional Initial value
+//   (If initial value is not specified, then it is assumed to be "0".)
+// [END]
+// Tool path data is below.
+// Items marked with "R" are reserved for future use
+// 
+//    X,               Y,              Z,              TiltAngleStart, TiltAngleEnd,   Bow,          Q, OffsetSide, Reserved, TiltLagStart, TiltLagEnd, (..More Reserved items...), XType, XData, [END]
+[0],  -0.7593566994,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 0, 0,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.3936168427,   0.3787505797,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.3072146461,   0.3979054855,   0.0000000000,   0.0000000000,   0.0000000000,   0.0655434628, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.3041990817,   0.3750000000,   0.0000000000,   0.0000000000,   0.0000000000,   1.0000000000, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.4811990817,   0.3750000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.8769764631, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.3072146461,   0.3979054855,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.3549004936,   0.3828701955,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 0, 0,          R,        R,              R,            0,              0,             0,[END]
+[0],   0.3911851630,   0.3975331050,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   0.2447407619,   0.4299990471,   0.0000000000,   0.0000000000,   0.0000000000,   0.0655434628, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   0.2375000000,   0.3750000000,   0.0000000000,   0.0000000000,   0.0000000000,   1.0000000000, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   0.6625000000,   0.3750000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.8769764631, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   0.2447407619,   0.4299990471,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   0.2924266095,   0.4149637571,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 0, 0,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.4893980664,   0.3770031053,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.5369490817,   0.4516432482,   0.0000000000,   0.0000000000,   0.0000000000,   0.2679491925, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.5811990817,   0.3750000000,   0.0000000000,   0.0000000000,   0.0000000000,   1.0000000000, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.4041990817,   0.3750000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.5773502692, 5, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.5369490817,   0.4516432482,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.5138616510,   0.4072927066,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 0, 0,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.7593566994,   0.8074045483,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.6487650989,   0.7060660172,   0.0000000000,   0.0000000000,   0.0000000000,  -0.1989123674, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.5426990817,   0.7500000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.4426990817,   0.7500000000,   0.0000000000,   0.0000000000,   0.0000000000,  -0.4142135624, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.5926990817,   0.6000000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.5926990817,   0.1500000000,   0.0000000000,   0.0000000000,   0.0000000000,  -0.4142135624, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],   1.4426990817,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.5426990817,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000,  -0.4142135624, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.6926990817,   0.1500000000,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.6926990817,   0.6000000000,   0.0000000000,   0.0000000000,   0.0000000000,  -0.1989123674, 3, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.6487650989,   0.7060660172,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 9, 1,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.6825446093,   0.7429298840,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 0, 0,          R,        R,              R,            0,              0,             0,[END]
+[0],  -0.7593566994,   0.9074045483,   0.0000000000,   0.0000000000,   0.0000000000,   0.0000000000, 0, 0,          R,        R,              R,            0,              0,             0,[END]
